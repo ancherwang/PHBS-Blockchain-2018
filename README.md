@@ -20,7 +20,10 @@ The birth of crypto currencies made people think of gold. Indeed, they both have
 We all know gold is a good hedging assets against stocks, bonds or other assets. From the figure shown below, we can notice the return rate of gold has different trends compared with US stocks, which make gold a good hedging tool.
 #### Figure 1: Return rate on different assets within recent years
 ![Figure 1](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/1.Returns%20on%20different%20assets.png?raw=true)
-## Empiracal Test of Hedging and Diversification Capabilities of Cryptocurrencies
+
+However the truth is the hedging ability of crypto currencies is not as good as gold according to the historical performance eventhough their characteristic share so many similarities. This review will explain in the later parts.
+## Empiracal test of hedging and diversification capabilities of cryptocurrencies
+## Perspective from industry
 ## When Can Cryptocurrencies used to be a hedging tool
 ## Actual outcome of crypto currencies implied by specialized hedging fund
 ## Other potential risks using cryptocurrencies as a hedging/diversification tool
