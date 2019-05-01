@@ -56,6 +56,30 @@ The conclusion is obvious, the outcome of the model showed little correlation be
 
 The result for currencies exchange rate is slightly different. Here we can see the t-1 time period exchange rate still has certain relationship with Bitcoin price. This is very interesting result. Actually the paper and I could not find a suitable explanation for this outcome. But since there exits certain relationship, we can conclude bitcoin may only be suitable for short-time hedging against dollars. However, there comes another problem, due to the high volatility of bitcoin and its high price, I am a little skeptical about its hedging potential. Therefore, as the t-Garch model shows, maybe using crypto currencies to hedge against fiat currencies is not a great idea.
 
+### Dynamic conditional correlation model of bitcoin and other assets
+Bouri et.al (2016) researched through a broader field. This publication used a dynamic conditional correlation model to examine whether Bitcoin can act as a hedge and safe haven for major world stock indices, bonds, oil, gold, the general commodity index and the US dollar index. The result suggest Bitcoin is a poor hedge and is suitable for diversification purposes only. However, Bitcoin can only serve as a strong safe haven against weekly extreme down movements in certain area, like China stock market. When the trading frequency changes, the principle determined index would totally change.
+
+#### Data and method of dynamic conditional correlation model
+This paper adopted the dynamic conditional correlation model, by which the researchers estimated the correlation between each return series and conducted the regression to evaluate the hedging and diversifying capabilities of Bitcoin. That is because compared with other Garch model, dynamic conditional correlation model could better capture the time-varying and dynamic relationships across return series with fewer com- putational complications. Datasets include the prices of Bitcoin and several financial assets, which include stocks, bonds, currencies and commodities from 2011 to 2015. All the daily and weekly data are from Thomson Reuters DataStream. 
+
+The simulation of the model includes three steps, firstly, a univariate GARCH (1,1) model is estimated. Secondly, a time-varying correlation matrix is computed using the standardized residuals from the previous estimation. To ensure that the selected dynamic conditional correlation model is well fitted, diagnostics tests should be done to test the existence of autocorrelation and heteroscedasticity in the return series.
+
+Lastly and most importantly, to assess the extent to which Bitcoin could be a good hedging or diversification tool, we should extract the dynamic conditional correlations the dynamic conditional correlation model into separate time series and then regressed on dummy variables (D) representing extreme movements in the lower 10th, 5th or 1st percentile of the return distribution.
+#### Outcome of dynamic conditional correlation model
+##### Table 4: Estimation results on the hedge and safe haven properties of Bitcoin.
+![Figure 8](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/8.model%202%20results.png?raw=true)
+
+As explained by the researcher, the model is well fitted for the question. Panel A of Table presents the coeﬃcient estimates from the regression model speciﬁed in Eq. 5 for daily data. Panel B of Table presents the same estimates for weekly data. 
+##### Daily analysis
+As shown in panel A, Bitcoin cannot be considered as a weak or strong safe haven against extreme movements in any of the assets on a daily basis. However, Bitcoin may be a strong hedge against Japanese and Asia Pacific stock markets. Furthermore, statistical evidence shows that Bitcoin is a strong hedge for the commodity index, which suggested the strong ability of crypto currencies to reduce risks associated with adverse events in commodities.
+##### Weekly analysis
+Panel B of outcome table showed that Bitcoin is a strong hedge only against Chinese stocks, considering that the m0 coefficient is significantly negative. Asian investors seem to invest more money on Bitcoin due to the stock market recession due to its decentralized characteristic. Besides, the incremental acceptance and decrease in transaction costs also helps in the growth of bitcoin market in Asian Pacific area.
+##### Comparison between daily and weekly results
+The trading frequency really matters to investors in the Bitcoin market, as the hedging and safe haven properties of Bitcoin differed across time horizons. For example, the hedging role of Bitcoin for Japanese stocks in daily data fades when using weekly data. The huge price fluctuation and the speculative nature in crypto currencies may explain the result. And the determinants of daily price of weekly price could be totally different.
+
+Therefore, we may conclude the diversification ability of crypto currencies are not constant over time. This needs further studies on the time-varying characteristics of hedging or diversifications properties of Bitcoin.  
+
+
 ## Perspective from industry
 ## When Can Cryptocurrencies used to be a hedging tool
 ## Actual outcome of crypto currencies implied by specialized hedging fund
