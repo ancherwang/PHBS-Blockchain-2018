@@ -79,8 +79,12 @@ The trading frequency really matters to investors in the Bitcoin market, as the 
 
 Therefore, we may conclude the diversification ability of crypto currencies are not constant over time. This needs further studies on the time-varying characteristics of hedging or diversifications properties of Bitcoin.  
 
-
 ## Perspective from industry
+### JP Morgan’s Perspective: Cryptocurrencies as portfolio diversification: questionable, despite low correlations
+John Normand, head of cross-asset fundamental strategy department in JP Morgan has done long-term follow-up research about the diversification capability of crypto currency. His finding is hedgers should rely on crypto currencies too much despite the historical return and low correlation with major assets. Firstly, the limited liquidity compared with legal tender make it impractical to hedge over other assets. Secondly, people still doubt its risk-return performance and characteristics even though in recent days the risk-adjusted return has increased. Since the history of crypto currencies is very short, the return rate in the price discovery stage could be very high. However in the future, the return may move back to average level and could not offset the high volatility any more.
+#### Figure 3: Cryptocurrencies can be 10 times more volatile than core markets like Equities or hedges such as commodities
+![Figure 9](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/9.%20Realized%20volatility%20of%20bitcoin%20and%20other%20assets.png?raw=true)
+
 ## When Can Cryptocurrencies used to be a hedging tool
 ## Actual outcome of crypto currencies implied by specialized hedging fund
 ## Other potential risks using cryptocurrencies as a hedging/diversification tool
