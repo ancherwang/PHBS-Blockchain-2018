@@ -31,7 +31,7 @@ It is important to estimate asymmetric models to be able to describe the dynamic
 #### Figure 2:Levels of the Bitcoin Price Index, the FTSE index, the dollar-euro exchange rate and the dollar-sterling exchange rate from July 19th 2010 to May 22nd 2015
 ![Figure 2](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/2.%20Data%20from%20model%201.png?raw=true)
 
-#### Figure 3: Statistic summary in T-Garch model
+#### Table 1: Statistic summary in T-Garch model
 ![Figure 3](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/3.%20Model%201%20statistic%20summary.png?raw=true)
 
 To eliminate the possible reverse causality and endogeneity, or in another words, the possibility that the model should include contemporaneous and lagged values of the Financial Times Stock Exchange Index in the mean equation, which is shown below.
@@ -41,6 +41,20 @@ To eliminate the possible reverse causality and endogeneity, or in another words
 This paper also propose a hedging against dollar Threshold-Garch model, which measures the correlation of Bitcoin price and currencies. The method is similar as the above, and we can see the function used here transformed to the following format.
 
 ![Figure 5](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/5..%20Model%201%202nd%20function.png?raw=true)
+
+Mean equation (3) and variance equation (4) for the dollar-euro exchange rate and (5) and (6) for the dollar-sterling exchange rates.
+The model results are shown as follow.
+#### T-Garch model for bitcoin and FTSE index
+##### Table 2: T-GARCH(1,1) with FTSE Index and return on bitcoin investment
+![Figure 6](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/6.%20Bitcoin-FTSE%20index%20model.png?raw=true)
+
+The conclusion is obvious, the outcome of the model showed little correlation between FTSE index and bitcoin price. Therefore, it is safe to conclude the stock market performance and bitcoin price have very little relationship, which provides the possibility to use the bitcoin as a diversification tool for equity investors.
+
+#### T-Garch model for exchange rate
+##### Table 3: T-GARCH(1,1) with exchange rate and return on bitcoin investment
+![Figure 7](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/7.%20Bitcoin-exchange%20rate%20model.png?raw=true)
+
+The result for currencies exchange rate is slightly different. Here we can see the t-1 time period exchange rate still has certain relationship with Bitcoin price. This is very interesting result. Actually the paper and I could not find a suitable explanation for this outcome. But since there exits certain relationship, we can conclude bitcoin may only be suitable for short-time hedging against dollars. However, there comes another problem, due to the high volatility of bitcoin and its high price, I am a little skeptical about its hedging potential. Therefore, as the t-Garch model shows, maybe using crypto currencies to hedge against fiat currencies is not a great idea.
 
 ## Perspective from industry
 ## When Can Cryptocurrencies used to be a hedging tool
