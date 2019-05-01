@@ -22,7 +22,15 @@ We all know gold is a good hedging assets against stocks, bonds or other assets.
 ![Figure 1](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/1.Returns%20on%20different%20assets.png?raw=true)
 
 However the truth is the hedging ability of crypto currencies is not as good as gold according to the historical performance eventhough their characteristic share so many similarities. This review will explain in the later parts.
-## Empiracal test of hedging and diversification capabilities of cryptocurrencies
+## Empiracal test of hedging and diversification capabilities of cryptocurrencies from previous researches
+In this part, we mainly look at two models and their outcome. The first one is Dyhrberg(2015)'s Garch model, the outcome indicated the potential hedging capabilities against certain assets. The second one is the dynamic conditional correlation model from Bouri et al. (2016). The result suggest Bitcoin is a poor hedge and is suitable for diversification purposes only. Here are the specific introduction.
+#### Threshold-Garch model of Bitcoin investment and FTSE index & exchange rates
+Capie et al. (2005) assumed that the errors exhibited conditional autoregressive heteroscedasticity and therefore adopted asymmetric GARCH models to find volatility correlations. Besides, Engle’s LaGrange multiplier test also showed high ARCH effects in the residuals of the bitcoin return which makes GARCH modelling suitable for relative research. So Dahrberg also adopted this method.
+
+It is important to estimate asymmetric models to be able to describe the dynamic relationship between the variables in question. There is a tendency among time series for volatility to decline when return increase and rise when returns decrease, known as the leverage effect which makes asymmetry crucial in modelling. The models in this research also distinguishes between the contemporaneous and lagged shock effects which is important in analysis. Asymmetric models will additionally be used to ensure comparability with the results from previous research. The variables included will however be different so direct comparability between coefficients are not possible. Combined all the requirements above, finally the Threshold-Garch model became the most eligible model.
+#### Figure 2:Levels of the Bitcoin Price Index, the FTSE index, the dollar-euro exchange rate and the dollar-sterling exchange rate from July 19th 2010 to May 22nd 2015
+![Figure 2](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/2.%20Data%20from%20model%201.png?raw=true)
+
 ## Perspective from industry
 ## When Can Cryptocurrencies used to be a hedging tool
 ## Actual outcome of crypto currencies implied by specialized hedging fund
