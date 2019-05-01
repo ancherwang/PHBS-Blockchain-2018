@@ -1,5 +1,5 @@
 # Block-Chain-Final-Report
-Hedging capabilities of cryptocurrencies: Can cryptocurrencies hedge or diversify portfolio?
+## Hedging capabilities of cryptocurrencies: Can cryptocurrencies hedge or diversify portfolio?
 1701213098-Blockchain-Final Report-2019Spring
 ## Abstract
 This review hopes to explore the hedging and diversification capabilities of crypto currencies represented by Bitcoin. Overall speaking， previous researches indicated a negative attitudes towards the hedging function of crypto currencies since no significant negative correlation is shown. Meanwhile, crypto currencies may be a suitable diversifier due to its low correlation with all the other assets. In some specific region, mostly Asian Pacific area, Crypto currencies behaved stonger hedging or diversifications partly due to investors's different preference. Very few of the accepted hedging timing may be extreme recessions or governmental crisis when the fiat 
