@@ -31,6 +31,17 @@ It is important to estimate asymmetric models to be able to describe the dynamic
 #### Figure 2:Levels of the Bitcoin Price Index, the FTSE index, the dollar-euro exchange rate and the dollar-sterling exchange rate from July 19th 2010 to May 22nd 2015
 ![Figure 2](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/2.%20Data%20from%20model%201.png?raw=true)
 
+#### Figure 3: Statistic summary in T-Garch model
+![Figure 3](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/3.%20Model%201%20statistic%20summary.png?raw=true)
+
+To eliminate the possible reverse causality and endogeneity, or in another words, the possibility that the model should include contemporaneous and lagged values of the Financial Times Stock Exchange Index in the mean equation, which is shown below.
+
+![Figure 4](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/4.%20Model%201%201st%20function.png?raw=true)
+
+This paper also propose a hedging against dollar Threshold-Garch model, which measures the correlation of Bitcoin price and currencies. The method is similar as the above, and we can see the function used here transformed to the following format.
+
+![Figure 5](https://github.com/ancherwang/Block-Chain-Final-Report/blob/master/5..%20Model%201%202nd%20function.png?raw=true)
+
 ## Perspective from industry
 ## When Can Cryptocurrencies used to be a hedging tool
 ## Actual outcome of crypto currencies implied by specialized hedging fund
